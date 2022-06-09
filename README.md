@@ -10,7 +10,7 @@ cargo run -q -- eval "(32*5)/4.0"
 will show the result of equantion
 ```
 
-![](console.png)
+![](Console.png)
 
 Extendes the functionalities, just add new commands
 
