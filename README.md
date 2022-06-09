@@ -2,7 +2,7 @@
 
 In this test I'm using wena + evalexpr to create an elegant starting point for your console application with sophisticated evaluator that solves equation
 
-```Rust
+```shell
 git clone this repository
 
 cargo run -q -- eval "(32*5)/4.0"
