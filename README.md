@@ -6,10 +6,11 @@ In this test I'm using wena + evalexpr to create an elegant starting point for y
 git clone this repository
 
 cargo run -q -- eval "(32*5)/4.0"
-
-will show the result of equantion
+#or directly calling the binary
+rust-wana-app eval "(32*5)/4.0"
 ```
 
+will show the result of equantion
 ![](Console.png)
 
 Extendes the functionalities, just add new commands
