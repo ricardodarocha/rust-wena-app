@@ -13,7 +13,7 @@ rust-wana-app.exe eval "(32*5)/4.0"
 cargo run -q -- eval "(32*5)/4.0"
 ```
 
-Irá mostrar o seguinte resultado
+Irá mostrar o seguinte resultado  
 ![](Console.png)
 
 Você pode criar vários comandos 
