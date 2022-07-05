@@ -4,16 +4,19 @@ In this test I'm using wena + evalexpr to create an elegant starting point for y
 
 ```shell
 git clone this repository
+cargo build
 
+irá gerar o binário rust-wana-app.exe
+rust-wana-app.exe eval "(32*5)/4.0"
+
+# Também pode usar o cargo para depurar
 cargo run -q -- eval "(32*5)/4.0"
-#or directly calling the binary
-rust-wana-app eval "(32*5)/4.0"
 ```
 
-will show the result of equantion  
+Irá mostrar o seguinte resultado
 ![](Console.png)
 
-Extendes the functionalities, just add new commands
+Você pode criar vários comandos 
 
 ```Rust
         .commands([Command::new("sum")
@@ -29,3 +32,5 @@ Extendes the functionalities, just add new commands
                 Ok(0)
             })])
 ```
+
+
